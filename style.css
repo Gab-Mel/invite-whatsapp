@@ -147,7 +147,7 @@ h1 {
   font-size: clamp(52px, 7vw, 88px);
 }
 
-h1 span, h2 span { color: var(--green); }
+h1 span, h2 span, h3 span { color: var(--green); }
 
 .lead {
   max-width: 580px;
@@ -323,10 +323,10 @@ h1 span, h2 span { color: var(--green); }
   padding: 28px;
   border: 1px solid var(--line);
   border-radius: 18px;
-  background: linear-gradient(145deg, rgba(255,255,255,.035), rgba(255,255,255,.012));
+  background: linear-gradient(145deg, rgba(170, 142, 3, 0.416), rgba(199, 174, 33, 0.8));
   transition: .3s ease;
 }
-.benefit:hover { transform: translateY(-7px); border-color: rgba(255,255,255,.18); }
+.benefit:hover { transform: translateY(-7px); border-color: rgba(255,255,255,.9); }
 .benefit-icon {
   width: 45px; height: 45px;
   display: grid; place-items: center;
