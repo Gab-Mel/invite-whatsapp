@@ -12,6 +12,7 @@
   --muted: #9c9692;
   --orange: #ff7438;
   --green: #e2e665;
+  --yellow: #f5e65c;
   --blue: #185fab;
   --line: rgba(255,255,255,.09);
 }
@@ -334,11 +335,11 @@ h1 span, h2 span, h3 span { color: var(--green); }
   margin-bottom: 42px;
   font: 800 21px Outfit;
 }
-.benefit-icon.orange { color: var(--orange); background: rgb(104, 186, 184); }
-.benefit-icon.green { color: var(--green); background: rgba(104, 186, 184); }
-.benefit-icon.blue { color: var(--blue); background: rgba(104, 186, 184); }
+.benefit-icon.orange { color: var(--orange); background: rgb(213, 213, 213); }
+.benefit-icon.green { color: rgba(25, 153, 15, 0.75); background: rgba(213, 213, 213); }
+.benefit-icon.blue { color: var(--blue); background: rgba(213, 213, 213); }
 .benefit h3 { font: 700 19px Outfit; margin-bottom: 9px; }
-.benefit p { color: #b2b8bb; font-size: 12px; line-height: 1.6; max-width: 290px; }
+.benefit p { color: #e3e3e3; font-size: 12px; line-height: 1.6; max-width: 290px; font-weight: bold;}
 
 .showcase {
   padding: 70px 0 100px;
